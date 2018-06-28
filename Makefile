@@ -28,8 +28,8 @@ ALL_MODULES         := no
 
 CHEMICAL_REACTIONS  := no
 CONTACT             := no
-FLUID_PROPERTIES    := no
-HEAT_CONDUCTION     := no
+FLUID_PROPERTIES    := yes
+HEAT_CONDUCTION     := yes
 MISC                := no
 NAVIER_STOKES       := no
 PHASE_FIELD         := no
@@ -37,9 +37,9 @@ RDG                 := no
 RICHARDS            := no
 SOLID_MECHANICS     := no
 STOCHASTIC_TOOLS    := no
-TENSOR_MECHANICS    := no
-XFEM                := no
-POROUS_FLOW         := no
+TENSOR_MECHANICS    := yes
+XFEM                := yes
+POROUS_FLOW         := yes
 
 include $(MOOSE_DIR)/modules/modules.mk
 ###############################################################################
